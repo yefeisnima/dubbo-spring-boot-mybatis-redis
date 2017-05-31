@@ -1,5 +1,5 @@
 driver=com.mysql.jdbc.Driver
-url=jdbc:mysql://rdssva8w61o860246h8x.mysql.rds.aliyuncs.com:3306/data_platform?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull
+url=
 username=weixin_test
 password=weixin
 initialSize=0
