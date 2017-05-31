@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.zte-its</groupId>
-	<artifactId>dearbinge-parent</artifactId>
+	<artifactId>dubbo-boot-parent</artifactId>
 	<version>1.0.0.0</version>
 	<packaging>pom</packaging>
 	<properties>
@@ -205,12 +205,12 @@
 		</dependency>
 	</dependencies>
 	<modules>
-		<module>dearbinge-openapi</module>
-		<module>dearbinge-security</module>
-		<module>dearbinge-data-api</module>
-		<module>dearbinge-data-provider</module>
-		<module>dearbinge-data-domain</module>
-		<module>dearbinge-utils</module>
-		<module>dearbinge-client-test</module>
+		<module>dubbo-boot-openapi</module>
+		<module>dubbo-boot-security</module>
+		<module>dubbo-boot-data-api</module>
+		<module>dubbo-boot-data-provider</module>
+		<module>dubbo-boot-data-domain</module>
+		<module>dubbo-boot-utils</module>
+		<module>dubbo-boot-client-test</module>
 	</modules>
 </project>
