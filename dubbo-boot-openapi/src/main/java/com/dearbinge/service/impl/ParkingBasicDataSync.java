@@ -12,7 +12,7 @@ import com.dearbinge.utils.ReturnCode;
 
 @Component
 public class ParkingBasicDataSync implements InfrastructDeal {
-	@Override
+	
 	public String accept(HttpServletRequest request) throws JsonProcessingException {
 		// TODO Auto-generated method stub
 		ParkingBasicDataSyncResponse parkingBasicDataSyncResponse = new ParkingBasicDataSyncResponse();

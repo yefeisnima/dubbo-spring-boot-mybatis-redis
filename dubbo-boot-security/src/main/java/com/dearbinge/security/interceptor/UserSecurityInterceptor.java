@@ -14,6 +14,7 @@ import com.dearbinge.utils.JsonUtil;
 import com.dearbinge.utils.ReturnCode;
 
 public class UserSecurityInterceptor implements HandlerInterceptor {
+	
 	private static ClassPathXmlApplicationContext context = null;
 
 	private ClassPathXmlApplicationContext getContext() {
@@ -29,19 +30,16 @@ public class UserSecurityInterceptor implements HandlerInterceptor {
 		return context;
 	}
 
-	@Override
 	public void afterCompletion(HttpServletRequest arg0, HttpServletResponse arg1, Object arg2, Exception arg3)
 			throws Exception {
 		// TODO Auto-generated method stub
 	}
 
-	@Override
 	public void postHandle(HttpServletRequest arg0, HttpServletResponse arg1, Object arg2, ModelAndView arg3)
 			throws Exception {
 		// TODO Auto-generated method stub
 	}
 
-	@Override
 	public boolean preHandle(HttpServletRequest arg0, HttpServletResponse arg1, Object arg2) throws Exception {
 		// TODO Auto-generated method stub
 		String secret_key = arg0.getParameter("secret_key");
